@@ -1,4 +1,10 @@
 <additionals>
+    <laneAreaDetector id="e2_N0" lane="N_in_0" pos="-100" length="100" freq="60" file="waiting_time.xml"/>
+    <laneAreaDetector id="e2_N1" lane="N_in_1" pos="-100" length="100" freq="60" file="waiting_time.xml"/>
+    
+    <laneAreaDetector id="e2_S0" lane="S_in_0" pos="-100" length="100" freq="60" file="waiting_time.xml"/>
+    <laneAreaDetector id="e2_S1" lane="S_in_1" pos="-100" length="100" freq="60" file="waiting_time.xml"/>
+
     <tlLogic id="C" type="static" programID="single_lane_green" offset="0">
         <phase duration="30" state="GGGGGrrrrrrrrrrrrrrr" name="North_Go"/>
         <phase duration="3"  state="yyyyyrrrrrrrrrrrrrrr" name="North_Yellow"/>
